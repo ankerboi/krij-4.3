@@ -19,11 +19,11 @@ Scheme
 	Colors
 	{
 		// base colors
-		"Orange"			"178 82 22 255"
-		"OrangeDim"			"178 82 22 120"
-		"LightOrange"		"188 112 0 128"
-		"GoalOrange"		"255 133 0"
-		"TFOrange"			"145 73 59 255"
+		"GreenSolid"			"178 82 22 255"
+		"GreenSolidDim"			"178 82 22 120"
+		"LightGreenSolid"		"188 112 0 128"
+		"GoalGreenSolid"		"255 133 0"
+		"TFGreenSolid"			"145 73 59 255"
 		"Purple"			"137 69 99 255"
 
 		"QuestGold"			"208 147 75 255"
@@ -33,7 +33,7 @@ Scheme
 		"QuestUncommitted"	"183 147 100 255"
 
 		"QuestMap_Bonus"	"222 217 166 255"
-		"QuestMap_ActiveOrange"	"212 127 25 255"
+		"QuestMap_ActiveGreenSolid"	"212 127 25 255"
 		"QuestMap_InactiveGrey"	"100 100 100 255"
 		"QuestMap_BGImages"	"56 58 60 255"
 
@@ -48,9 +48,9 @@ Scheme
 		"Red"				"192 28 0 140"
 		"RedSolid"			"192 28 0 255"
 		"Blue"				"0 28 162 140"
-		"Yellow"			"251 235 202 255"
-		"TransparentYellow"	"251 235 202 140"
-		"BrightYellow"		"251 235 0 255"
+		"White"			"251 235 202 255"
+		"TransparentWhite"	"251 235 202 140"
+		"BrightWhite"		"251 235 0 255"
 		//"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
@@ -195,8 +195,8 @@ Scheme
 
 		"LightRed"								"200 80 60 255"
 		"LighterRed"							"220 100 80 255"
-		"LighterDarkBrown"						"59 54 48 255"
-		"DarkBrown"								"41 37 38 255"
+		"LighterBlack"						"59 54 48 255"
+		"Black"								"41 37 38 255"
 		
 		"UpgradeDefaultFg"		"87 82 74 255"
 		"UpgradeDefaultBg"		"111 104 94 255"
@@ -216,24 +216,24 @@ Scheme
 	BaseSettings
 	{
 		// vgui_controls color specifications
-		ReplayBrowser.BgColor								"DarkBrown"
+		ReplayBrowser.BgColor								"Black"
 		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
-		ReplayBrowser.Button.ArmedBgColor					"TFOrange"
-		ReplayBrowser.Button.DepressedBgColor				"TFOrange"
+		ReplayBrowser.Button.ArmedBgColor					"TFGreenSolid"
+		ReplayBrowser.Button.DepressedBgColor				"TFGreenSolid"
 		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
 		ReplayBrowser.Warning.FgColor						"White"
-		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
+		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentWhite"
 		ReplayBrowser.Search.BgColor						"TanDark"
 		ReplayBrowser.Search.FgColor						"White"
 		
-		Replay.RenderDialog.BgColor							"LighterDarkBrown"
+		Replay.RenderDialog.BgColor							"LighterBlack"
 		
 		Econ.Dialog.BgColor									"Blank"
 		Econ.Button.BgColor									"TanDark"
 		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"TFOrange"
+		Econ.Button.ArmedBgColor							"TFGreenSolid"
 		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"TFOrange"
+		Econ.Button.DepressedBgColor						"TFGreenSolid"
 		Econ.Button.DepressedFgColor						"Black"
 		
 		Econ.Button.PresetDefaultColorFg					"TanLight"
@@ -242,7 +242,7 @@ Scheme
 		
 		Econ.Button.PresetDefaultColorBg					"LighterRed"
 		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDepressedColorBg					"TFGreenSolid"
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
@@ -251,19 +251,19 @@ Scheme
 		Button.TextColor				"TanLight"
 		Button.BgColor					"TanDark"
 		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
+		Button.ArmedBgColor				"TFGreenSolid"
 		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
+		Button.SelectedBgColor			"TFGreenSolid"
 		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.DepressedBgColor			"TFGreenSolid"
 
-		CheckButton.TextColor			"Yellow"
-		CheckButton.SelectedTextColor	"Yellow"
+		CheckButton.TextColor			"White"
+		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Yellow" 		// the left checkbutton border
-		CheckButton.Border2  			"Yellow"		// the right checkbutton border
-		CheckButton.Check				"Yellow"		// color of the check itself
-		CheckButton.HighlightFgColor	"Yellow"
+		CheckButton.Border1  			"White" 		// the left checkbutton border
+		CheckButton.Border2  			"White"		// the right checkbutton border
+		CheckButton.Check				"White"		// color of the check itself
+		CheckButton.HighlightFgColor	"White"
 		
 		ComboBoxButton.ArrowColor		"TanLight"
 		ComboBoxButton.ArmedArrowColor	"TanLight"
@@ -287,12 +287,12 @@ Scheme
 		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.TextColor			"Orange"
+		FrameTitleBar.TextColor			"GreenSolid"
 		FrameTitleBar.BgColor			"Blank"
-		FrameTitleBar.DisabledTextColor	"Orange"
+		FrameTitleBar.DisabledTextColor	"GreenSolid"
 		FrameTitleBar.DisabledBgColor	"Blank"
 
-		GraphPanel.FgColor				"Orange"
+		GraphPanel.FgColor				"GreenSolid"
 		GraphPanel.BgColor				"TransparentBlack"
 
 		Label.TextDullColor				"TanDark"
@@ -303,12 +303,12 @@ Scheme
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"Black"
 
-		ListPanel.TextColor					"Orange"
+		ListPanel.TextColor					"GreenSolid"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
 		ListPanel.SelectedBgColor			"Red"
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
-		ListPanel.EmptyListInfoTextColor	"Orange"
+		ListPanel.EmptyListInfoTextColor	"GreenSolid"
 
 		Menu.TextColor					"TanLight"
 		Menu.BgColor					"TransparentBlack"
@@ -316,7 +316,7 @@ Scheme
 		Menu.ArmedBgColor				"TanLight"
 		Menu.TextInset					"6"
 
-		Chat.TypingText					"Orange"
+		Chat.TypingText					"GreenSolid"
 
 		Panel.FgColor					"Gray"
 		Panel.BgColor					"Blank"
@@ -333,12 +333,12 @@ Scheme
 		"BuildingHealthBar.Health"		"ProgressOffWhite"
 		"BuildingHealthBar.LowHealth"	"LowHealthRed"
 
-		PropertySheet.TextColor			"Orange"
-		PropertySheet.SelectedTextColor	"Orange"
+		PropertySheet.TextColor			"GreenSolid"
+		PropertySheet.SelectedTextColor	"GreenSolid"
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor			"Orange"
-		RadioButton.SelectedTextColor	"Orange"
+		RadioButton.TextColor			"GreenSolid"
+		RadioButton.SelectedTextColor	"GreenSolid"
 
 		RichText.TextColor				"Gray"
 		RichText.BgColor				"Blank"
@@ -355,11 +355,11 @@ Scheme
 		ScrollBarSlider.FgColor				"Gray"		// nob color
 		ScrollBarSlider.BgColor				"Blank"		// slider background color
 
-		SectionedListPanel.HeaderTextColor	"Orange"
+		SectionedListPanel.HeaderTextColor	"GreenSolid"
 		SectionedListPanel.HeaderBgColor	"Blank"
 		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"Orange"
-		SectionedListPanel.BrightTextColor	"Orange"
+		SectionedListPanel.TextColor		"GreenSolid"
+		SectionedListPanel.BrightTextColor	"GreenSolid"
 		SectionedListPanel.BgColor			"TransparentLightBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Red"
@@ -382,7 +382,7 @@ Scheme
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
 		TextEntry.FocusEdgeColor	"Blank"
 
-		ToggleButton.SelectedTextColor	"Orange"
+		ToggleButton.SelectedTextColor	"GreenSolid"
 
 		Tooltip.TextColor			"TransparentBlack"
 		Tooltip.BgColor				"Red"
@@ -408,7 +408,7 @@ Scheme
 		HudCaptureProgressBar.InActive	"HudProgressBarInActive"
 
 		// scheme-specific colors
-		"FgColor"		"Orange"
+		"FgColor"		"GreenSolid"
 		"BgColor"		"TransparentBlack"
 
 		"ViewportBG"		"Blank"
@@ -5564,12 +5564,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "QuestMap_ActiveOrange"
+					"color" "QuestMap_ActiveGreenSolid"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "QuestMap_ActiveOrange"
+					"color" "QuestMap_ActiveGreenSolid"
 					"offset" "0 1"
 				}
 			}
@@ -5578,12 +5578,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "QuestMap_ActiveOrange"
+					"color" "QuestMap_ActiveGreenSolid"
 					"offset" "1 0"
 				}
 				"2"
 				{
-					"color" "QuestMap_ActiveOrange"
+					"color" "QuestMap_ActiveGreenSolid"
 					"offset" "1 0"
 				}
 			}
@@ -5592,12 +5592,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "QuestMap_ActiveOrange"
+					"color" "QuestMap_ActiveGreenSolid"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "QuestMap_ActiveOrange"
+					"color" "QuestMap_ActiveGreenSolid"
 					"offset" "0 0"
 				}
 			}
@@ -5606,12 +5606,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "QuestMap_ActiveOrange"
+					"color" "QuestMap_ActiveGreenSolid"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "QuestMap_ActiveOrange"
+					"color" "QuestMap_ActiveGreenSolid"
 					"offset" "0 0"
 				}
 			}
