@@ -171,7 +171,7 @@
 				"angles_x_minmode"	"0"
 				"angles_y"		"172"
 				"angles_z"		"0"
-				"origin_x"		"175"
+				"origin_x"		"172"
 				"origin_y"		"-3"
 				"origin_z"		"-97"
 				"origin_z_minmode"	"-57"
